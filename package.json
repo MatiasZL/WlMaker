@@ -3,7 +3,7 @@
   "displayName": "WlMaker",
   "description": "Create Flutter BLoCs with Freezed sealed classes from the explorer context menu",
   "version": "0.1.0",
-  "publisher": "wlmaker",
+  "publisher": "Edhelkhed",
   "engines": {
     "vscode": "^1.85.0"
   },
