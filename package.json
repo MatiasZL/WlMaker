@@ -7,7 +7,13 @@
   "engines": {
     "vscode": "^1.85.0"
   },
-  "categories": ["Other"],
+  "categories": ["Programming Languages", "Snippets"],
+  "keywords": ["flutter", "bloc", "freezed", "dart", "code generation"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MatiasZL/WlMaker"
+  },
+  "license": "MIT",
   "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
