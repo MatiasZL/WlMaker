@@ -15,6 +15,7 @@
   },
   "license": "MIT",
   "activationEvents": [],
+  "icon": "icon.jpeg",
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
