@@ -3,11 +3,11 @@ export function blocStateTemplate(name: string, pascal: string): string {
 
 @freezed
 sealed class ${pascal}State with _\$${pascal}State {
-  const ${pascal}State._();
-
   const factory ${pascal}State({
     @Default(false) bool fakeVar,
   }) = _${pascal}State;
+
+  const ${pascal}State._();
 
   factory ${pascal}State.initial() => const ${pascal}State();
 }
