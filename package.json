@@ -25,6 +25,16 @@
           "group": "navigation"
         }
       ]
+    },
+    "configuration": {
+      "title": "WlMaker",
+      "properties": {
+        "wlmaker.autoRunBuildRunner": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically run 'dart run build_runner build' after creating a new BLoC."
+        }
+      }
     }
   },
   "scripts": {
