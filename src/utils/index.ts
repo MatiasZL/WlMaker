@@ -1,0 +1,1 @@
+export { updateBarrelFile } from './barrel';
