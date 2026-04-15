@@ -2,7 +2,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 export function updateBarrelFile(parentDir: string, name: string): void {
-  const barrelPath = path.join(parentDir, 'blocs.dart');
+  const barrelPath = path.join(parentDir, 'bloc.dart');
   const exportLine = `export '${name}/${name}_bloc.dart';`;
 
   if (fs.existsSync(barrelPath)) {
